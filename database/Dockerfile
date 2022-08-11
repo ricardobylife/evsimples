@@ -1,0 +1,3 @@
+FROM postgres
+ENV POSTGRES_PASSWORD evsimples
+ENV POSTGRES_DB jesusc

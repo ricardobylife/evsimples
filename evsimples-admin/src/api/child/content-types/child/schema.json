@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "children",
+  "info": {
+    "singularName": "child",
+    "pluralName": "children",
+    "displayName": "children"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "middlename": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "birth": {
+      "type": "date",
+      "required": true
+    },
+    "father": {
+      "type": "string"
+    },
+    "mother": {
+      "type": "string"
+    },
+    "phone1": {
+      "type": "string"
+    },
+    "phone2": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "has_alergies": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "alergies": {
+      "type": "richtext"
+    },
+    "food_restrictions": {
+      "type": "richtext"
+    },
+    "observations": {
+      "type": "richtext"
+    }
+  }
+}
